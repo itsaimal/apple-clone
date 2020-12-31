@@ -4,7 +4,7 @@ import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 
 function CoverMain() {
     return (
-        <div className="bg-white w-full  h-screen relative top-11">
+        <div className="bg-blue-500 w-full  relative top-11">
             {/* top */}
             <div className="w-full h-10 bg-gray-200 flex justify-center">
                 <h1 className="mt-2 text-sm text-gray-600"><a className="text-blue-600 cursor-pointer hover:underline">Shop online</a> and get Specialist help, free no-contact delivery, and more.Get in-stock items with Apple Pickup or 2-hour delivery, available in most metros</h1>
