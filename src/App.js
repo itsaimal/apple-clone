@@ -13,6 +13,9 @@ import Mac from "./Mac"
 import {Switch, Route} from "react-router-dom"
 import Ipad from './Ipad';
 
+import IphoneBox from './IphoneBox';
+import LearnIphone from './LearnIphone';
+
 
 
 function App() {
@@ -46,6 +49,9 @@ function App() {
       <Whitespacer/>
       <Cards/>
       <Footer/>
+     
+      <IphoneBox/>
+      <LearnIphone/>
     
       </Route>
 
