@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from "./Image/iphon12.png"
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
+import {NavLink} from "react-router-dom"
 
 function CoverMain() {
     return (
@@ -23,8 +24,10 @@ function CoverMain() {
 
                     <div className="flex justify-center mt-3">
             
-                        <h1 className="text-blue-800 mr-12 cursor-pointer text-center font-medium hover:underline">Learn more<ArrowForwardIosIcon/></h1>
-                        <h1 className="text-blue-800 text-center cursor-pointer font-medium hover:underline">Buy<ArrowForwardIosIcon/></h1>
+                       <NavLink to="/iphoneLearn"> <h1 className="text-blue-800 mr-12 cursor-pointer text-center font-medium hover:underline">Learn more<ArrowForwardIosIcon/></h1></NavLink>
+                       <NavLink to="/iphoneBuy"> 
+                       <h1 className="text-blue-800 text-center cursor-pointer font-medium hover:underline">Buy<ArrowForwardIosIcon/></h1>
+                       </NavLink> 
                     </div>
 
                     </div>

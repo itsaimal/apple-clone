@@ -37,6 +37,16 @@ function App() {
       </Route>
 
 
+      <Route path="/iphoneBuy">
+      <IphoneBox/>
+      </Route>
+
+
+      <Route path="/iphoneLearn">
+      <LearnIphone/>
+      <Footer/>
+      </Route>
+
       
 
 
@@ -50,8 +60,8 @@ function App() {
       <Cards/>
       <Footer/>
      
-      <IphoneBox/>
-      <LearnIphone/>
+     
+  
     
       </Route>
 
