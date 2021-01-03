@@ -17,6 +17,7 @@ import IphoneBox from './IphoneBox';
 import LearnIphone from './LearnIphone';
 import LearnPhonePro from './LearnPhonePro';
 import IphoneProBox from './IphoneProBox';
+import FitnessPlus from './FitnessPlus';
 
 
 
@@ -59,6 +60,10 @@ function App() {
       <IphoneProBox/>
     </Route>
 
+      <Route path="/fitness+">
+      <FitnessPlus/>
+    </Route>
+
       
 
 
@@ -71,6 +76,7 @@ function App() {
       <Whitespacer/>
       <Cards/>
       <Footer/>
+     
     
     
      

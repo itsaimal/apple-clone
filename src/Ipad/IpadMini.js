@@ -12,7 +12,7 @@ function IpadMini() {
   
               <h1 className="text-yellow-600 text-xl font-semibold">New</h1>
              
-              <h1 className="font-bold mt-4 text-5xl text-black">MacBook Pro</h1>
+              <h1 className="font-bold mt-4 text-5xl text-black">iPad </h1>
               <h1 className="font-semibold  mt-4 text-2xl text-black" >Delightfully capable.</h1>
               <h1 className="font-semibold  mt-4 text-2xl text-black" >Surprisingly affordable.</h1>
               <h1 className="font-small  mt-4 text-md text-black">From $1299</h1>
