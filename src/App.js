@@ -15,6 +15,7 @@ import Ipad from './Ipad';
 
 import IphoneBox from './IphoneBox';
 import LearnIphone from './LearnIphone';
+import LearnPhonePro from './LearnPhonePro';
 
 
 
@@ -47,6 +48,11 @@ function App() {
       <Footer/>
       </Route>
 
+
+      <Route path="/iphoneProLearn">
+      <LearnPhonePro/>
+    </Route>
+
       
 
 
@@ -59,6 +65,7 @@ function App() {
       <Whitespacer/>
       <Cards/>
       <Footer/>
+    
      
      
   

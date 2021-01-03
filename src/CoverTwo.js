@@ -1,5 +1,6 @@
 import React from 'react'
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
+import {NavLink} from "react-router-dom"
 
 function CoverTwo() {
     return (
@@ -18,8 +19,8 @@ function CoverTwo() {
                     </h1>
 
                     <div className="flex justify-center mt-3">
-            
-                        <h1 className="text-blue-800 mr-12 cursor-pointer text-center font-medium hover:underline">Learn more<ArrowForwardIosIcon/></h1>
+            <NavLink to="/iphoneProLearn">
+                        <h1 className="text-blue-800 mr-12 cursor-pointer text-center font-medium hover:underline">Learn more<ArrowForwardIosIcon/></h1></NavLink>
                         <h1 className="text-blue-800 text-center cursor-pointer font-medium hover:underline">Buy<ArrowForwardIosIcon/></h1>
                     </div>
 
